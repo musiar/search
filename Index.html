@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Список учителей</title>
+		<meta http-equiv = "Content-Type" content= "text/html" charset = "UTF-8" lang = "ru">
+		<link rel = "Stylesheet"  content = "text/css" href = "css/style.css">
+		<script src = "js/list.js" type = "text/javascript"></script>
+		<script src = "js/script.js" type = "text/javascript"></script>
+	</head>
+	
+	<body onload="addFullList();">
+		<h1>Список учителей</h1>
+		<input type="text" name="search_text" id = "search_text" onchange= "addFullList(this.value);">
+		<table id = "list">
+			<!-- Тут будет список -->
+		</table>
+	</body>
+</html>
